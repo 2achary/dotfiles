@@ -1,2 +1,2 @@
-cp ~/.bash_profile ~/.vimrc ~/.tmux.conf ~/dotfiles
+cp ~/.bash_profile ~/.vimrc ~/.tmux.conf ~/.tmux1.conf ~/dotfiles
 
