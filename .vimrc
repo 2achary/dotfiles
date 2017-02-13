@@ -5,9 +5,10 @@ set autoindent          " auto indenting
 set number              " line numbers
 colorscheme desert      " colorscheme desert
 set nobackup            " get rid of anoying ~file
-" Use two spaces for indentation
-set tabstop=4
-set softtabstop=4 
-set shiftwidth=4 
-set expandtab
+" Use 4  spaces for indentation
+set tabstop=8 softtabstop=0 expandtab shiftwidth=4 smarttab
+nnoremap <silent> [b :bprevious<CR> 
+nnoremap <silent> ]b :bnext<CR> 
+nnoremap <silent> [B :bfirst<CR> 
+nnoremap <silent> ]B :blast<CR>
 
